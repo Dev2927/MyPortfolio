@@ -1,0 +1,100 @@
+#power {
+  overflow: hidden;
+  width: 100vw;
+  max-width: 65rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  /* border: 2px solid rgb(199, 123, 240); */
+}
+
+.powerTitle {
+  color: rgb(234, 78, 240);
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.powerDsec {
+  font-weight: 300;
+  font-size: 1.5rem;
+  max-width: 50rem;
+  padding: 0 2rem;
+}
+
+.powerBox {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  margin: 2rem;
+  width: 100vw;
+  max-width: 80%;
+  text-align: center;
+}
+
+.powerBoxes {
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+  background: linear-gradient(rgb(184, 184, 215), #4e2269);
+  color: black;
+  border: 2px solid rgb(179, 76, 235);
+  box-shadow: 0 2px 20px rgba(234, 78, 240, 0.2);
+  transition: all 0.1s;
+  border-radius: 10px;
+}
+
+.powerBoxes:hover {
+  transform: translateY(-6px);
+  transition: transform 0.4s;
+  box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+}
+
+@media screen and (max-width: 880px) {
+  .powerBox {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .powerBox {
+    display: grid;
+    grid-template-columns: 170px 170px 170px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .powerBox {
+    display: grid;
+    grid-template-columns: 180px 180px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .powerBox {
+    display: grid;
+    grid-template-columns: 160px 160px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .powerBox {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    text-align: center;
+    margin: 0.5rem;
+    width: 100vw;
+    max-width: 100%;
+  }
+  .powerBoxes {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+  }
+}
