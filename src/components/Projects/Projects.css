@@ -151,12 +151,12 @@
   }
   .projectImg {
     object-fit: cover;
-    height: 5rem;
-    width: 9rem;
+    height: 6rem;
+    width: 12rem;
     margin-right: 2rem;
   }
   .projectCard {
-    width: 70%;
+    width: 80%;
   }
 }
 

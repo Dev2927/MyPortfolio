@@ -69,16 +69,27 @@
     .hello{
         font-size: 4.5vw;
     }
+    .introPara{
+        font-weight: 300;
+    }
 }
 
 @media screen and (max-width: 480px){
     .bg{
         right: -25vw;
     }
+    .introPara{
+        font-weight: 500;
+        font-size: large;
+    }
 }
 
 @media screen and (max-width: 280px){
     .bg{
         right: -35vw;
+    }
+    .introPara{
+        font-weight: 500;
+        font-size: large;
     }
 }

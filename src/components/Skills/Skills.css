@@ -70,7 +70,7 @@
 
 @media screen and (max-width: 420px) {
     .skillBarText>p{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .skillBarImg{
         height: 2.25rem;
@@ -83,7 +83,7 @@
 
 @media screen and (max-width: 380px) {
     .skillBarText>p{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .skillBarImg{
         height: 2.25rem;
@@ -97,7 +97,7 @@
 
 @media screen and (max-width: 380px) {
     .skillBarText>p{
-        font-size: 2vw;
+        font-size: 3vw;
     }
     .skillBarImg{
         height: 2.25rem;
