@@ -22,10 +22,18 @@ function Intro() {
         </p>
         <div className="btn">
           <button className="btns">
-            <a href="https://www.linkedin.com/in/dev-anand-98939b259/" target="_blank"><img src={Linkedin} alt="LinkedIn" className="btnImg" /></a>
+            <a
+              rel="noreferrer"
+              href="https://www.linkedin.com/in/dev-anand-98939b259/"
+              target="_blank"
+            >
+              <img src={Linkedin} alt="LinkedIn" className="btnImg" />
+            </a>
           </button>
           <button className="btns">
-            <a href="https://github.com/Dev2927" target="_blank"><img src={Github} alt="Github" className="btnImg" /></a>
+            <a rel="noreferrer" href="https://github.com/Dev2927" target="_blank">
+              <img src={Github} alt="Github" className="btnImg" />
+            </a>
           </button>
         </div>
       </div>
