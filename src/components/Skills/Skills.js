@@ -10,9 +10,9 @@ const Skills = () => {
       <span className="skillDesc">
         I am a front-end developer and I have a pretty good experience with
         Front-end. I have made many cool projects with the help of JavaScript
-        and React-JS. Also I have hands on skills like JavaScript, React-JS,
-        Next-JS, TypeScript, APIs, MongoDb, HTML, CSS, Tailwind, Botstrap and
-        Git & Github.
+        and React-JS. Also I have hands on skills over many different coding
+        languages. I consistently practise what I've already learned, make
+        different projects and try to gain knowledge about new skills.
       </span>
 
       <div className="skillBars">
@@ -30,7 +30,10 @@ const Skills = () => {
           <img src={PS} alt="Problem solving" className="skillBarImg" />
           <div className="skillBarText">
             <h2>Problem and Bugs solving</h2>
-            <p>I own the ability of effective problem and bug solving in many coding languages.</p>
+            <p>
+              I own the ability of effective problem and bug solving in many
+              coding languages.
+            </p>
           </div>
         </div>
       </div>

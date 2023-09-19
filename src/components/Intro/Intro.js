@@ -11,15 +11,15 @@ function Intro() {
         <span className="hello">Hello,</span>
         <span className="introText">
           I'm<span className="introName"> Dev Anand</span> <br />
-          Front-end Developer
+          A Front-end Developer
         </span>
-        <p className="introPara">
+        {/* <p className="introPara">
           I am a front-end developer and I have a pretty good experience with
           Front-end.
           <br />I have made many cool projects with the help of JavaScript &
           React-JS. <br />
           Also have many more skills.
-        </p>
+        </p> */}
         <div className="btn">
           <button className="btns">
             <a
