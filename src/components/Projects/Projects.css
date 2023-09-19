@@ -160,7 +160,7 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
   .projectCards {
     display: flex;
     flex-direction: column;
@@ -170,7 +170,7 @@
   .projectImg {
     object-fit: cover;
     height: 5rem;
-    width: 9rem;
+    width: 10rem;
     margin-right: 2rem;
   }
   .projectCard {
@@ -178,7 +178,7 @@
   }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 310px) {
     .projectCards {
       display: flex;
       flex-direction: column;

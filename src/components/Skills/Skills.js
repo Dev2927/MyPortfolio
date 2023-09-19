@@ -31,7 +31,7 @@ const Skills = () => {
           <div className="skillBarText">
             <h2>Problem and Bugs solving</h2>
             <p>
-              I own the ability of effective problem and bug solving in many
+              I own the ability of effective problem and bug solving across
               coding languages.
             </p>
           </div>
